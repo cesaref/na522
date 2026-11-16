@@ -1,0 +1,365 @@
+{
+ "violations": [
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'NA5xx'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'NA5xx'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'NA5xx'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'NA5xx'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'NA5xx'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_SMD'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_SMD'"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_over_copper",
+   "warning",
+   "Silkscreen clipped by solder mask"
+  ],
+  [
+   "silk_over_copper",
+   "warning",
+   "Silkscreen clipped by solder mask"
+  ],
+  [
+   "silk_over_copper",
+   "warning",
+   "Silkscreen clipped by solder mask"
+  ],
+  [
+   "silk_over_copper",
+   "warning",
+   "Silkscreen clipped by solder mask"
+  ],
+  [
+   "silk_over_copper",
+   "warning",
+   "Silkscreen clipped by solder mask"
+  ],
+  [
+   "silk_over_copper",
+   "warning",
+   "Silkscreen clipped by solder mask"
+  ]
+ ],
+ "unconnected": 0
+}

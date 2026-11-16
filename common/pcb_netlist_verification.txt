@@ -1,0 +1,5 @@
+tht T: 52 footprints checked, 0 pad/net errors, 0 unrouted
+tht B: 52 footprints checked, 0 pad/net errors, 0 unrouted
+smd T: 52 footprints checked, 0 pad/net errors, 0 unrouted
+smd B: 52 footprints checked, 0 pad/net errors, 0 unrouted
+ALL OK

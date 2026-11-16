@@ -1,0 +1,1369 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-12T19:33:32",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "na522_tht_T.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C10",
+                    "pos": {
+                        "x": 169.3,
+                        "y": 121.9551
+                    },
+                    "uuid": "012182a5-97be-4cd1-aa79-adf5256e8bde"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'NA5xx'",
+            "items": [
+                {
+                    "description": "Footprint P2",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 134.7
+                    },
+                    "uuid": "03b385f3-0e9e-4e15-89fb-80da1d4e106f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_TO_SOT_THT'",
+            "items": [
+                {
+                    "description": "Footprint Q3",
+                    "pos": {
+                        "x": 161.23,
+                        "y": 131.36
+                    },
+                    "uuid": "045495a6-7ee2-423c-850a-baacd0460a5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R16",
+                    "pos": {
+                        "x": 135.0,
+                        "y": 112.08
+                    },
+                    "uuid": "0e7cc988-0b6e-4340-b2da-3b729f7f4f6a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R15",
+                    "pos": {
+                        "x": 138.0,
+                        "y": 112.08
+                    },
+                    "uuid": "0f444089-b68f-4233-b893-7840c337d4ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 149.0,
+                        "y": 124.5
+                    },
+                    "uuid": "14b86c80-07f2-4a30-bfcd-138fd2852edd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R19",
+                    "pos": {
+                        "x": 145.5,
+                        "y": 127.08
+                    },
+                    "uuid": "16d20709-f9d0-43ae-b8f4-e1132659ab6f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C9",
+                    "pos": {
+                        "x": 104.0,
+                        "y": 108.5
+                    },
+                    "uuid": "2657c295-6591-408d-98c6-b7c881a884ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R10",
+                    "pos": {
+                        "x": 158.5,
+                        "y": 127.08
+                    },
+                    "uuid": "2820b2c4-7407-4429-8b1f-9d6cea8ad786"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R5",
+                    "pos": {
+                        "x": 169.0,
+                        "y": 112.08
+                    },
+                    "uuid": "2b8c1f83-f561-45da-ad59-40edfa81502e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_TO_SOT_THT'",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 167.23,
+                        "y": 131.36
+                    },
+                    "uuid": "2dd38a72-9003-4382-b9c8-32fbfb53405b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R7",
+                    "pos": {
+                        "x": 166.0,
+                        "y": 112.08
+                    },
+                    "uuid": "2e623af4-2782-4a36-a4da-907e3aa23c1b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R13",
+                    "pos": {
+                        "x": 152.5,
+                        "y": 127.08
+                    },
+                    "uuid": "2ef64347-b941-4e07-a31e-daba910982b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'NA5xx'",
+            "items": [
+                {
+                    "description": "Footprint P3",
+                    "pos": {
+                        "x": 173.2,
+                        "y": 147.0
+                    },
+                    "uuid": "333b92c4-ed02-4fa1-9a4e-2c454cee3bb4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R20",
+                    "pos": {
+                        "x": 142.5,
+                        "y": 127.08
+                    },
+                    "uuid": "355ead02-8c50-41f6-9042-e5b4f15c840b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R6",
+                    "pos": {
+                        "x": 155.5,
+                        "y": 127.08
+                    },
+                    "uuid": "36fe359b-f2d9-4e5a-9537-1bd9d9dbc134"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 181.5,
+                        "y": 126.08
+                    },
+                    "uuid": "3a625d79-77aa-4268-b36f-b9af103d5729"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'NA5xx'",
+            "items": [
+                {
+                    "description": "Footprint P4",
+                    "pos": {
+                        "x": 181.5,
+                        "y": 131.2
+                    },
+                    "uuid": "3ba36012-728b-4991-964e-5066b24362b6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 125.0,
+                        "y": 109.5
+                    },
+                    "uuid": "40872810-6315-477f-865e-dce26800d4c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 107.1824
+                    },
+                    "uuid": "45114da8-9a94-4ad4-ad85-9f6fd654fe5e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R11",
+                    "pos": {
+                        "x": 163.0,
+                        "y": 112.08
+                    },
+                    "uuid": "474ae1d8-3e04-4c7c-a9f5-be5003275e25"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 181.0,
+                        "y": 112.08
+                    },
+                    "uuid": "53886e52-3e0e-4a99-8b76-197ad00aa59e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'NA5xx'",
+            "items": [
+                {
+                    "description": "Footprint P1",
+                    "pos": {
+                        "x": 102.6,
+                        "y": 118.3
+                    },
+                    "uuid": "56b5c5fa-ff31-48ff-9e06-fe2a5d3d23e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R12",
+                    "pos": {
+                        "x": 157.0,
+                        "y": 112.08
+                    },
+                    "uuid": "5c1b050a-1300-4ae6-bb7c-40dae2329302"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R25",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 112.08
+                    },
+                    "uuid": "607e3f64-6a45-41cb-8b91-74e4169d2f09"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R21",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 112.08
+                    },
+                    "uuid": "6abe6f03-f52a-4fe7-92e2-c0a062dee808"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_TO_SOT_THT'",
+            "items": [
+                {
+                    "description": "Footprint Q9",
+                    "pos": {
+                        "x": 143.73,
+                        "y": 141.86
+                    },
+                    "uuid": "6fa47f80-5883-4973-b0fa-b5f34f1501b0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R22",
+                    "pos": {
+                        "x": 141.0,
+                        "y": 112.08
+                    },
+                    "uuid": "719b7c54-3044-4b03-a4fd-9b88126b834f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'NA5xx'",
+            "items": [
+                {
+                    "description": "Footprint H1",
+                    "pos": {
+                        "x": 126.6,
+                        "y": 133.0
+                    },
+                    "uuid": "77a39186-5321-4d8b-8bac-72b6ddb370bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C6B",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 109.5
+                    },
+                    "uuid": "77c1c990-0aa3-4081-9387-9b5e6bd69c16"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R18",
+                    "pos": {
+                        "x": 147.0,
+                        "y": 112.08
+                    },
+                    "uuid": "7dcd44c9-f588-42cd-99dd-94f1f3ca8fe7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_TO_SOT_THT'",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 173.23,
+                        "y": 131.36
+                    },
+                    "uuid": "81e84ddf-e994-4540-9b23-6df673b80b02"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R26",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 112.08
+                    },
+                    "uuid": "83306967-93b4-4b6e-8324-c50cb1349019"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R14",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 112.08
+                    },
+                    "uuid": "8383ca81-509f-4fca-a6fb-1a3730fa0135"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_TO_SOT_THT'",
+            "items": [
+                {
+                    "description": "Footprint Q4",
+                    "pos": {
+                        "x": 149.23,
+                        "y": 131.36
+                    },
+                    "uuid": "845b3b3f-0e6f-4c69-b81f-2a4ad79a160b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_TO_SOT_THT'",
+            "items": [
+                {
+                    "description": "Footprint Q7",
+                    "pos": {
+                        "x": 137.23,
+                        "y": 131.36
+                    },
+                    "uuid": "8e56c9ce-2632-4f0e-9c4b-c6ed59d03ab5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R9",
+                    "pos": {
+                        "x": 160.0,
+                        "y": 112.08
+                    },
+                    "uuid": "92335b4d-1f77-48d5-8552-f2efb826dbfe"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 160.8176,
+                        "y": 141.5
+                    },
+                    "uuid": "9e6e0ebd-dbc4-459c-83cc-2875657d8793"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C7",
+                    "pos": {
+                        "x": 128.5,
+                        "y": 141.5
+                    },
+                    "uuid": "a1c0a80c-23ff-4fe6-8421-09f217fa6175"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_TO_SOT_THT'",
+            "items": [
+                {
+                    "description": "Footprint Q5",
+                    "pos": {
+                        "x": 155.23,
+                        "y": 131.36
+                    },
+                    "uuid": "aa536ac3-e7f0-4bc5-a808-8227e2c32fe0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R23",
+                    "pos": {
+                        "x": 144.0,
+                        "y": 112.08
+                    },
+                    "uuid": "acbcc407-40b8-4b57-8780-fb15a46772c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_TO_SOT_THT'",
+            "items": [
+                {
+                    "description": "Footprint Q10",
+                    "pos": {
+                        "x": 137.73,
+                        "y": 141.86
+                    },
+                    "uuid": "b49deb09-1352-4711-92b5-cbbbb5d69785"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 151.8176,
+                        "y": 141.5
+                    },
+                    "uuid": "c5fedca1-4df1-4e49-80cc-c04730daf9cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 172.0,
+                        "y": 112.08
+                    },
+                    "uuid": "c76586f4-bc10-4f7a-8419-42090d324925"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_TO_SOT_THT'",
+            "items": [
+                {
+                    "description": "Footprint Q6",
+                    "pos": {
+                        "x": 143.23,
+                        "y": 131.36
+                    },
+                    "uuid": "c85db179-c42d-40bf-8152-9bb0328941f0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R17",
+                    "pos": {
+                        "x": 132.0,
+                        "y": 112.08
+                    },
+                    "uuid": "d1dc9258-3f93-4e87-96c9-8cf22bea8bd3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 178.0,
+                        "y": 112.08
+                    },
+                    "uuid": "d599c5fe-e1af-433f-b8f9-c37ee21ca1c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 164.5,
+                        "y": 124.5
+                    },
+                    "uuid": "d7e269be-ae72-4414-9957-e98e5721b360"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Package_TO_SOT_THT'",
+            "items": [
+                {
+                    "description": "Footprint Q8",
+                    "pos": {
+                        "x": 131.73,
+                        "y": 131.36
+                    },
+                    "uuid": "e103df3a-2378-4525-b9b2-8e46ecc5bc0f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R24",
+                    "pos": {
+                        "x": 117.92,
+                        "y": 146.5
+                    },
+                    "uuid": "e31f1c22-6874-46f6-b31f-62862c59776b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Capacitor_THT'",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 176.0,
+                        "y": 124.0
+                    },
+                    "uuid": "eaa7a137-dadc-43a7-a367-2c75dd272ca0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Resistor_THT'",
+            "items": [
+                {
+                    "description": "Footprint R8",
+                    "pos": {
+                        "x": 161.5,
+                        "y": 127.08
+                    },
+                    "uuid": "f866107c-ef0d-4e9c-bbd7-13e3aed75196"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C9 on F.Silkscreen",
+                    "pos": {
+                        "x": 105.37,
+                        "y": 102.28
+                    },
+                    "uuid": "082cd45b-0c91-496e-8711-fd380cc15de1"
+                },
+                {
+                    "description": "Reference field of C8",
+                    "pos": {
+                        "x": 105.6,
+                        "y": 105.9324
+                    },
+                    "uuid": "680bcec0-e101-4296-a408-5156f577c628"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.776,
+                        "y": 105.7324
+                    },
+                    "uuid": "994ca008-40f3-425e-a604-a30ca5eca6a0"
+                },
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 113.13,
+                        "y": 107.0
+                    },
+                    "uuid": "bf16c9c4-6d9d-4646-a5a5-6e1238d5c81c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Circle of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 105.9324
+                    },
+                    "uuid": "20ca01f8-e5ba-4321-ad0f-ad5122a2dd42"
+                },
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 113.13,
+                        "y": 107.0
+                    },
+                    "uuid": "bf16c9c4-6d9d-4646-a5a5-6e1238d5c81c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.77,
+                        "y": 105.8924
+                    },
+                    "uuid": "8b488867-a083-4cdf-af87-496c29054b0b"
+                },
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 113.13,
+                        "y": 107.0
+                    },
+                    "uuid": "bf16c9c4-6d9d-4646-a5a5-6e1238d5c81c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 113.13,
+                        "y": 107.0
+                    },
+                    "uuid": "bf16c9c4-6d9d-4646-a5a5-6e1238d5c81c"
+                },
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.77,
+                        "y": 105.9324
+                    },
+                    "uuid": "e24b3d9b-5749-4979-a44b-fc348394af3c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 113.13,
+                        "y": 107.0
+                    },
+                    "uuid": "bf16c9c4-6d9d-4646-a5a5-6e1238d5c81c"
+                },
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.771,
+                        "y": 105.8524
+                    },
+                    "uuid": "dd383026-804f-48d7-81b0-eaecbe9dc65b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.772,
+                        "y": 105.8124
+                    },
+                    "uuid": "0c895930-24d6-44d9-8026-a44bf7682ab0"
+                },
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 113.13,
+                        "y": 107.0
+                    },
+                    "uuid": "bf16c9c4-6d9d-4646-a5a5-6e1238d5c81c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 106.774,
+                        "y": 105.7724
+                    },
+                    "uuid": "8186b9da-8851-44db-8d30-7e619e2d8e30"
+                },
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 113.13,
+                        "y": 107.0
+                    },
+                    "uuid": "bf16c9c4-6d9d-4646-a5a5-6e1238d5c81c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.04,
+                        "y": 105.6124
+                    },
+                    "uuid": "83c6da4f-8152-4073-becd-b1a170032c16"
+                },
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 113.13,
+                        "y": 107.0
+                    },
+                    "uuid": "bf16c9c4-6d9d-4646-a5a5-6e1238d5c81c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 113.13,
+                        "y": 107.0
+                    },
+                    "uuid": "bf16c9c4-6d9d-4646-a5a5-6e1238d5c81c"
+                },
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.04,
+                        "y": 105.6524
+                    },
+                    "uuid": "e4bf8455-0b28-4fc8-8e04-c8958bd499a4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C8 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.04,
+                        "y": 105.6924
+                    },
+                    "uuid": "777bf756-834d-4c2e-bc2e-1c031a44dc85"
+                },
+                {
+                    "description": "Reference field of R25",
+                    "pos": {
+                        "x": 113.13,
+                        "y": 107.0
+                    },
+                    "uuid": "bf16c9c4-6d9d-4646-a5a5-6e1238d5c81c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C6B on F.Silkscreen",
+                    "pos": {
+                        "x": 121.87,
+                        "y": 103.28
+                    },
+                    "uuid": "15f2d6fd-673e-4944-af91-29cb9a38f9cc"
+                },
+                {
+                    "description": "Reference field of C6",
+                    "pos": {
+                        "x": 121.5,
+                        "y": 107.0
+                    },
+                    "uuid": "2f89468f-c2b1-416e-ad68-93b558cd339a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R13",
+                    "pos": {
+                        "x": 150.13,
+                        "y": 122.0
+                    },
+                    "uuid": "6ed00232-dcd3-4d9c-be26-099aacadd691"
+                },
+                {
+                    "description": "Segment of C4 on F.Silkscreen",
+                    "pos": {
+                        "x": 150.62,
+                        "y": 118.28
+                    },
+                    "uuid": "b8712c49-f8ca-4bf4-b31b-2893bae6f554"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of C10",
+                    "pos": {
+                        "x": 165.55,
+                        "y": 120.9551
+                    },
+                    "uuid": "862a8c07-e4ea-4da2-942e-1acc1dfab583"
+                },
+                {
+                    "description": "Segment of C2 on F.Silkscreen",
+                    "pos": {
+                        "x": 165.87,
+                        "y": 118.28
+                    },
+                    "uuid": "b35bf3de-6269-4e97-8b5b-bb9a7e36f867"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Circle of C10 on F.Silkscreen",
+                    "pos": {
+                        "x": 169.3,
+                        "y": 120.9551
+                    },
+                    "uuid": "ac16d8b9-904f-4dec-b3cc-7a04a1a8822e"
+                },
+                {
+                    "description": "Reference field of C1",
+                    "pos": {
+                        "x": 172.0,
+                        "y": 121.5
+                    },
+                    "uuid": "ad857433-40d8-42ee-8196-929c9512b79c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of C10 on F.Silkscreen",
+                    "pos": {
+                        "x": 170.34,
+                        "y": 120.8751
+                    },
+                    "uuid": "3386ef0c-68ff-4c43-8cc7-39b6cb5e8e7e"
+                },
+                {
+                    "description": "Reference field of C1",
+                    "pos": {
+                        "x": 172.0,
+                        "y": 121.5
+                    },
+                    "uuid": "ad857433-40d8-42ee-8196-929c9512b79c"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of C1",
+                    "pos": {
+                        "x": 172.0,
+                        "y": 121.5
+                    },
+                    "uuid": "ad857433-40d8-42ee-8196-929c9512b79c"
+                },
+                {
+                    "description": "Segment of C10 on F.Silkscreen",
+                    "pos": {
+                        "x": 170.34,
+                        "y": 120.9151
+                    },
+                    "uuid": "dfe7476b-5290-48fd-94c2-addda426bbb8"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of C1",
+                    "pos": {
+                        "x": 172.0,
+                        "y": 121.5
+                    },
+                    "uuid": "ad857433-40d8-42ee-8196-929c9512b79c"
+                },
+                {
+                    "description": "Segment of C10 on F.Silkscreen",
+                    "pos": {
+                        "x": 170.34,
+                        "y": 120.9551
+                    },
+                    "uuid": "e2f9503b-9d97-4a36-aef6-1fd6bff9bfe9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R1",
+                    "pos": {
+                        "x": 179.13,
+                        "y": 121.0
+                    },
+                    "uuid": "2d2ed397-19c8-476e-8901-04ea873d4806"
+                },
+                {
+                    "description": "Arc of C1 on F.Silkscreen",
+                    "pos": {
+                        "x": 176.0,
+                        "y": 121.5
+                    },
+                    "uuid": "81bc050a-8f55-4ec2-9d9d-bc7972e8b66a"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of C10",
+                    "pos": {
+                        "x": 165.55,
+                        "y": 120.9551
+                    },
+                    "uuid": "862a8c07-e4ea-4da2-942e-1acc1dfab583"
+                },
+                {
+                    "description": "PTH pad 2 [GND] of C2",
+                    "pos": {
+                        "x": 164.5,
+                        "y": 119.5
+                    },
+                    "uuid": "cc1cd6de-26ff-4af4-bddd-0df5fb3f27c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "PCB text 'IN' on F.Silkscreen",
+                    "pos": {
+                        "x": 181.5,
+                        "y": 126.6
+                    },
+                    "uuid": "72425d34-196b-4121-b0c8-4834b6665e63"
+                },
+                {
+                    "description": "PTH pad 1 [IN] of R1",
+                    "pos": {
+                        "x": 181.5,
+                        "y": 126.08
+                    },
+                    "uuid": "5b058fab-b2ad-41c9-9e8c-aabaa645a539"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of Q6",
+                    "pos": {
+                        "x": 144.5,
+                        "y": 127.8
+                    },
+                    "uuid": "72a60358-5041-4b49-9fa0-7a7544b4c696"
+                },
+                {
+                    "description": "PTH pad 1 [N7] of R19",
+                    "pos": {
+                        "x": 145.5,
+                        "y": 127.08
+                    },
+                    "uuid": "b324ec4e-a007-41cb-95f0-671d06009b71"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of Q3",
+                    "pos": {
+                        "x": 162.5,
+                        "y": 127.8
+                    },
+                    "uuid": "47ed9b13-2dec-4875-a653-5322591e0ee2"
+                },
+                {
+                    "description": "PTH pad 1 [N2] of R8",
+                    "pos": {
+                        "x": 161.5,
+                        "y": 127.08
+                    },
+                    "uuid": "915e8310-3238-4e82-b14d-9bb54b597c61"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "Reference field of Q5",
+                    "pos": {
+                        "x": 156.5,
+                        "y": 127.8
+                    },
+                    "uuid": "07ee859b-57fd-483d-8592-d1608fbb6846"
+                },
+                {
+                    "description": "PTH pad 1 [E1] of R6",
+                    "pos": {
+                        "x": 155.5,
+                        "y": 127.08
+                    },
+                    "uuid": "24eb04be-4671-437d-b853-2a19524f48ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

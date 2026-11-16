@@ -1,0 +1,41 @@
+2026-11-12 19:53:54.676 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+WARNING: Final field userProfileSettings in class app.freerouting.settings.GlobalSettings has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @78186a70 (file:/Users/cesare/Documents/NA522/work/bin/freerouting.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+2026-11-12 19:53:54.952 INFO   Hardware: 10 CPU cores, 365 CPU score, 8192 MB RAM
+2026-11-12 19:53:54.952 WARN   Deprecated settings path '-mp / --router.max_passes'; use '--router.autorouter.max_passes' instead. The old path will be removed in a future release.
+2026-11-12 19:53:54.954 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-11-12 19:53:56.051 WARN   Deprecated settings path 'router.max_passes'; use 'router.autorouter.max_passes' instead. The old path will be removed in a future release.
+2026-11-12 19:53:56.358 INFO   [ABB36B\EEF5EA] Loading board file 'na522_smd_T.dsn'...
+2026-11-12 19:53:56.435 INFO   [ABB36B\EEF5EA] Job 'ABB36B\EEF5EA' started at 2026-11-12T19:53:56.435117Z.
+2026-11-12 19:53:56.492 WARN   Design Warning: Board has 4 pre-existing clearance violation(s) in the loaded design (before routing):
+  - 4 unfixable violation(s) (cannot be resolved by Freerouting):
+      * 4 pin-to-pin clearance violations:
+          - Q3.3 [net O1] <-> Q3.2 [net VCC]
+          - Q3.2 [net VCC] <-> Q3.1 [net B3]
+          - Q8.3 [net O2] <-> Q8.2 [net VCC]
+          - Q8.2 [net VCC] <-> Q8.1 [net B8]
+  - 0 potentially fixable violations
+Notice: Freerouting does not modify component placement, board outlines, or fixed items.
+Resolving these 4 unfixable violation(s) is the responsibility of the board author in their EDA tool (e.g. KiCad).
+2026-11-12 19:53:56.525 INFO   [ABB36B\EEF5EA] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=9.
+2026-11-12 19:53:56.567 INFO   [ABB36B\EEF5EA] Fanout stage started on board '0c102683c2b1e6e53870a1c23c92bb26' with 104 of 104 SMD pins needing fanout (0 already connected, 0 netless).
+2026-11-12 19:53:57.527 INFO   [ABB36B\EEF5EA] Fanout pass #1 on board 'ac3e3a85a56f11bc930d7e8cfd46cf27' completed in 0.93 seconds with 103 SMD pins fanouted, 0 not routed, 0 insert errors, +51 extra vias (0 SMD pins still to check in pass, ripup costs=100).
+2026-11-12 19:53:57.742 INFO   [ABB36B\EEF5EA] Fanout pass #2 on board 'f4f1b3691a600c2eec22c5e59cef2f7b' completed in 0.21 seconds with 17 SMD pins fanouted, 0 not routed, 0 insert errors, +7 extra vias (0 SMD pins still to check in pass, ripup costs=200).
+2026-11-12 19:53:57.782 INFO   [ABB36B\EEF5EA] Fanout pass #3 on board '8eb48fd1f6a2fc5009318dec2a8c4da0' completed in 0.03 seconds with 2 SMD pins fanouted, 0 not routed, 0 insert errors, +2 extra vias (0 SMD pins still to check in pass, ripup costs=300).
+2026-11-12 19:53:57.822 INFO   [ABB36B\EEF5EA] Fanout pass #4 on board '8eb48fd1f6a2fc5009318dec2a8c4da0' completed in 0.03 seconds with 0 SMD pins fanouted, 0 not routed, 0 insert errors, +0 extra vias (0 SMD pins still to check in pass, ripup costs=400).
+2026-11-12 19:53:57.825 INFO   [ABB36B\EEF5EA] Fanout stage completed: started with 104 total SMD pins, completed in 1.25 seconds, escaped pins: 104/104 (100.0%), using 1.00 total CPU seconds, 0.48 GB total allocated, and 129.3 MB peak heap usage.
+2026-11-12 19:53:57.847 INFO   [ABB36B\EEF5EA] Auto-routing stage started on board '8eb48fd1f6a2fc5009318dec2a8c4da0' with baseline score 382.50 for 37 unrouted items.
+2026-11-12 19:53:58.580 INFO   [ABB36B\EEF5EA] Auto-routing pass #1 on board '8eb48fd1f6a2fc5009318dec2a8c4da0' was completed in 0.70 seconds with score 999.16 (0 unrouted and 4 violations), using 1.59 CPU seconds and the job allocated 0.84 GB of memory so far.
+2026-11-12 19:53:58.629 INFO   [ABB36B\EEF5EA] Auto-routing pass #2 on board '5de5a10c48c7f476d2af122edbcd507e' was completed in 0.01 seconds with score 999.16 (0 unrouted and 4 violations), using 1.59 CPU seconds and the job allocated 0.84 GB of memory so far.
+2026-11-12 19:53:58.694 INFO   [ABB36B\EEF5EA] Auto-routing stage completed: started with 80 unrouted nets, completed in 2.15 seconds, final score: 999.16 (0 unrouted and 4 violations), using 1.59 total CPU seconds, 0.84 GB total allocated, and 115.6 MB peak heap usage.
+2026-11-12 19:53:58.757 INFO   [ABB36B\EEF5EA] Optimization stage started on board 'd5730cf21d9040ba614a01739d601381'. Baseline router score: 999.16, optimizer score: 336.52, incomplete connections: 0, clearance violations: 4.
+2026-11-12 19:54:01.081 INFO   [ABB36B\EEF5EA] Optimizer pass #1 on board 'aa8e38dc493bdfed9cd16aaa60064a31' was completed in 2.26 seconds with the score of 382.54 (0 unrouted and 4 violations).
+2026-11-12 19:54:01.094 INFO   [ABB36B\EEF5EA] Optimizer pass #1: optimizer score 336.52 -> 382.54 (IMPROVED, 13.6780%), router score: 999.16, incomplete connections: 0, clearance violations: 4.
+2026-11-12 19:54:03.940 INFO   [ABB36B\EEF5EA] Optimizer pass #2 on board 'c7726706b258cd6cd8571d1617863171' was completed in 2.81 seconds with the score of 387.07 (0 unrouted and 4 violations).
+2026-11-12 19:54:03.961 INFO   [ABB36B\EEF5EA] Optimizer pass #2: optimizer score 382.54 -> 387.07 (IMPROVED, 1.1825%), router score: 999.16, incomplete connections: 0, clearance violations: 4.
+2026-11-12 19:54:03.961 INFO   [ABB36B\EEF5EA] Stopping optimizer because the improvement in this pass (1.1825%) is below the threshold (2.50%).
+2026-11-12 19:54:03.980 INFO   [ABB36B\EEF5EA] Optimization stage completed:. Baseline router score: 999.16, baseline optimizer score: 336.52, final router score: 999.16, final optimizer score: 387.07, completed in 5.21 seconds, using 17.22 total CPU seconds, 9.89 GB total allocated, and 615.7 MB peak heap usage.
+2026-11-12 19:54:03.987 INFO   [ABB36B\EEF5EA] Job 'ABB36B\EEF5EA' finished with state: COMPLETED (elapsed: 7.55 seconds, finished at UTC: 2026-11-12T19:54:03.986445Z).
+2026-11-12 19:54:03.990 INFO   Saving output file '/Users/cesare/Documents/NA522/design2_smd/pcb_T/na522_smd_T.ses' (SES)...
+2026-11-12 19:54:03.994 INFO   Successfully saved output file '/Users/cesare/Documents/NA522/design2_smd/pcb_T/na522_smd_T.ses' (29160 bytes).

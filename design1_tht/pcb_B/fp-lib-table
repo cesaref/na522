@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NA5xx")(type "KiCad")(uri "${KIPRJMOD}/../../common/kicad_lib/NA5xx.pretty")(options "")(descr "NA522 card sockets and peg hole"))
+)

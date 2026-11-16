@@ -1,0 +1,52 @@
+ref,value,fit,description,footprint,manufacturer,mpn,vcheck,notes
+R1,62k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C6202FC100,,
+C1,10uF,fit,"Tantalum, dipped radial, 10 uF 35 V 10 %, P=5 mm",P=5 mm,KEMET,T350E106K035AT,"Vdc=11.7 V (rated 35 V, 33 %)",As original (Naim used tantalum). Alt: Vishay 199D106X9035DA1. + to bias node.
+R3,330k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C3303FC100,,
+R26,0R,fit,Wire link (0.6 mm tinned copper) - or 0R 0207,0207 axial P=10.16,-,wire link,,"Faithful build: R26 = link, R3 = 330k."
+C10,10uF,DNF,"Al. electrolytic radial 10 uF 50 V, 5x11, P=2 mm",P=2 mm,Panasonic,EEU-FR1H100,"Vdc=11.7 V (rated 50 V, 23 %)","NOT FITTED in faithful build (optional bias filter, fit together with R26 = 165k and R3 = 165k)."
+R2,330k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C3303FC100,,
+R4,470,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C4700FC100,,
+C2,470pF,fit,"Polypropylene film 470 pF 100 V 5 %, P=5 mm",P=5 mm,WIMA,FKP2 series,"Vdc=11.7 V (rated 100 V, 12 %)",Original: polystyrene (Styroflex). Sets RF filter with R4 and loads the cartridge (~470 pF).
+Q1,BC550C,fit,"NPN low-noise, hFE group C, TO-92, pinout C-B-E",TO-92,Diotec / CDIL,BC550C,,"Original used Zetex ZTX384C (E-line). Check pinout against footprint (1=C, 2=B, 3=E). OP: Ic=0.05 mA, Vce=11.1 V, Pd=1 mW."
+R5,22k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C2202FC100,,
+Q2,BC560C,fit,"PNP low-noise, hFE group C, TO-92, pinout C-B-E",TO-92,Diotec / CDIL,BC560C,,"Original: Zetex ZTX214C. OP: Ic=0.55 mA, Vce=11.2 V, Pd=6 mW."
+R7,1k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C1001FC100,,
+R8,22k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C2202FC100,,
+R9,1k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C1001FC100,,
+Q3,BC550C,fit,"NPN, hFE group C, TO-92 (Pd ~0.13 W)",TO-92,Diotec / CDIL,BC550C,,"Follower / current sink (~9.3 mA, ~0.13 W). ZTX450/ZTX651 (E-line, 1 W) are cooler alternatives - check pinout. OP: Ic=9.22 mA, Vce=12.4 V, Pd=115 mW."
+R10,2.2k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C2201FC100,,
+R6,1k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C1001FC100,,
+C3,47uF,fit,"Al. electrolytic radial 47 uF 50 V, 6.3x11, P=2.5 mm",P=2.5 mm,Panasonic,EEU-FR1H470,"Vdc=11.1 V (rated 50 V, 22 %)",Original: S.L.C.E. CO31SP axial 47 uF 40 V (obsolete).
+Q5,BC550C,fit,"NPN, hFE group C, TO-92 (Pd ~0.13 W)",TO-92,Diotec / CDIL,BC550C,,"Follower / current sink (~9.3 mA, ~0.13 W). ZTX450/ZTX651 (E-line, 1 W) are cooler alternatives - check pinout. OP: Ic=9.30 mA, Vce=10.4 V, Pd=96 mW."
+R11,62k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C6202FC100,,
+Q4,BC550C,fit,"NPN low-noise, hFE group C, TO-92, pinout C-B-E",TO-92,Diotec / CDIL,BC550C,,"Original used Zetex ZTX384C (E-line). Check pinout against footprint (1=C, 2=B, 3=E). OP: Ic=0.34 mA, Vce=1.4 V, Pd=0 mW."
+R13,68,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C68R0FC100,,
+R12,3.4k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C3401FC100,,RIAA 75 us - 1 %/50 ppm minimum (original spec)
+C4,22nF,fit,"Polypropylene film 22 nF 100 V 2.5-5 %, P=5 mm",P=5 mm,WIMA,MKP2 series (or FKP2),"Vdc=11.0 V (rated 100 V, 11 %)",RIAA 75 us. Hand-match within 1 % between channels if possible.
+Q6,BC550C,fit,"NPN low-noise, hFE group C, TO-92, pinout C-B-E",TO-92,Diotec / CDIL,BC550C,,"Original used Zetex ZTX384C (E-line). Check pinout against footprint (1=C, 2=B, 3=E). OP: Ic=0.05 mA, Vce=11.9 V, Pd=1 mW."
+R14,22k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C2202FC100,,
+Q7,BC560C,fit,"PNP low-noise, hFE group C, TO-92, pinout C-B-E",TO-92,Diotec / CDIL,BC560C,,"Original: Zetex ZTX214C. OP: Ic=0.50 mA, Vce=12.2 V, Pd=6 mW."
+R18,1k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C1001FC100,,
+R19,22k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C2202FC100,,
+R22,1k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C1001FC100,,
+Q8,BC550C,fit,"NPN, hFE group C, TO-92 (Pd ~0.13 W)",TO-92,Diotec / CDIL,BC550C,,"Follower / current sink (~9.3 mA, ~0.13 W). ZTX450/ZTX651 (E-line, 1 W) are cooler alternatives - check pinout. OP: Ic=9.27 mA, Vce=13.5 V, Pd=125 mW."
+R15,220k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C2203FC100,,
+R16,390,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C3900FC100,,RIAA network
+C5,47uF,fit,"Al. electrolytic radial 47 uF 50 V, 6.3x11, P=2.5 mm",P=2.5 mm,Panasonic,EEU-FR1H470,"Vdc=10.4 V (rated 50 V, 21 %)",In RIAA feedback leg.
+R17,4.7k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C4701FC100,,RIAA network
+R21,82k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C8202FC100,,RIAA network
+C6,68nF,fit,"Polypropylene film 68 nF 100 V 2.5-5 %, P=5 mm, W=4.5",W=4.5,WIMA,MKP2 series,"Vdc=0.4 V (rated 100 V, 0 %)",RIAA 3180/318 us. Hand-match within 1 % between channels if possible.
+C6B,1nF,DNF,"Polypropylene film 1 nF 100 V, P=5 mm",P=5 mm,WIMA,FKP2 series,"Vdc=0.4 V (rated 100 V, 0 %)",NOT FITTED (RIAA trim position).
+Q10,BC550C,fit,"NPN, hFE group C, TO-92 (Pd ~0.13 W)",TO-92,Diotec / CDIL,BC550C,,"Follower / current sink (~9.3 mA, ~0.13 W). ZTX450/ZTX651 (E-line, 1 W) are cooler alternatives - check pinout. OP: Ic=9.30 mA, Vce=9.3 V, Pd=87 mW."
+R23,62k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C6202FC100,,
+Q9,BC550C,fit,"NPN low-noise, hFE group C, TO-92, pinout C-B-E",TO-92,Diotec / CDIL,BC550C,,"Original used Zetex ZTX384C (E-line). Check pinout against footprint (1=C, 2=B, 3=E). OP: Ic=0.34 mA, Vce=1.4 V, Pd=0 mW."
+R20,68,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C68R0FC100,,
+C7,10uF,fit,"Tantalum, dipped radial, 10 uF 35 V 10 %, P=5 mm",P=5 mm,KEMET,T350E106K035AT,"Vdc=10.0 V (rated 35 V, 28 %)",+ to O2 (transistor side).
+R24,100k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C1003FC100,,
+R25,27,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",0207 axial P=10.16,Vishay,MBB02070C27R0FC100,,
+C8,47uF,fit,"Al. electrolytic radial 47 uF 50 V, 6.3x11, P=2.5 mm",P=2.5 mm,Panasonic,EEU-FR1H470,"Vdc=23.4 V (rated 50 V, 47 %)",Supply decoupling.
+C9,100nF,DNF,"Polyester film 100 nF 63 V, P=5 mm",P=5 mm,WIMA,MKS2 series,"Vdc=23.4 V (rated 63 V, 37 %)",NOT FITTED in faithful build (optional HF bypass).
+P1,socket,fit,"Receptacle for 0.8 x 1.7 mm blade pin (1.65-2.08 mm #07 contact), gold","4.1 mm hole, 5.6 mm pad",Mill-Max,0391-0-15-15-07-27-10-0,,Fitted from the UNDERSIDE. Test-fit samples on the NAC82 pins before ordering in quantity.
+P2,socket,fit,"Receptacle for 0.8 x 1.7 mm blade pin (1.65-2.08 mm #07 contact), gold","4.1 mm hole, 5.6 mm pad",Mill-Max,0391-0-15-15-07-27-10-0,,Fitted from the UNDERSIDE. Test-fit samples on the NAC82 pins before ordering in quantity.
+P3,socket,fit,"Receptacle for 0.8 x 1.7 mm blade pin (1.65-2.08 mm #07 contact), gold","4.1 mm hole, 5.6 mm pad",Mill-Max,0391-0-15-15-07-27-10-0,,Fitted from the UNDERSIDE. Test-fit samples on the NAC82 pins before ordering in quantity.
+P4,socket,fit,"Receptacle for 0.8 x 1.7 mm blade pin (1.65-2.08 mm #07 contact), gold","4.1 mm hole, 5.6 mm pad",Mill-Max,0391-0-15-15-07-27-10-0,,Fitted from the UNDERSIDE. Test-fit samples on the NAC82 pins before ordering in quantity.

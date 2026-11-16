@@ -1,0 +1,420 @@
+{
+ "violations": [
+  [
+   "silk_edge_clearance",
+   "warning",
+   "Silkscreen clipped by board edge"
+  ],
+  [
+   "silk_edge_clearance",
+   "warning",
+   "Silkscreen clipped by board edge"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'NA5xx'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'NA5xx'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'NA5xx'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'NA5xx'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'NA5xx'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Package_TO_SOT_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Capacitor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "lib_footprint_issues",
+   "warning",
+   "The current configuration does not include the footprint library 'Resistor_THT'"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_overlap",
+   "warning",
+   "Silkscreen clearance"
+  ],
+  [
+   "silk_over_copper",
+   "warning",
+   "Silkscreen clipped by solder mask"
+  ]
+ ],
+ "unconnected": 0
+}

@@ -1,0 +1,49 @@
+2026-11-12 19:33:18.395 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+WARNING: Final field userProfileSettings in class app.freerouting.settings.GlobalSettings has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @78186a70 (file:/Users/cesare/Documents/NA522/work/bin/freerouting.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+2026-11-12 19:33:18.667 INFO   Hardware: 10 CPU cores, 373 CPU score, 8192 MB RAM
+2026-11-12 19:33:18.668 WARN   Deprecated settings path '-mp / --router.max_passes'; use '--router.autorouter.max_passes' instead. The old path will be removed in a future release.
+2026-11-12 19:33:18.669 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-11-12 19:33:19.715 WARN   Deprecated settings path 'router.max_passes'; use 'router.autorouter.max_passes' instead. The old path will be removed in a future release.
+2026-11-12 19:33:19.989 INFO   [EB1E17\DAAC91] Loading board file 'na522_tht_T.dsn'...
+2026-11-12 19:33:20.053 INFO   [EB1E17\DAAC91] Job 'EB1E17\DAAC91' started at 2026-11-12T19:33:20.053260Z.
+2026-11-12 19:33:20.094 WARN   Design Warning: Board has 40 pre-existing clearance violation(s) in the loaded design (before routing):
+  - 40 unfixable violation(s) (cannot be resolved by Freerouting):
+      * 40 pin-to-pin clearance violations (first 5 shown):
+          - Q1.3 [net E1] <-> Q1.2 [net B1A]
+          - Q1.3 [net E1] <-> Q1.2 [net B1A]
+          - Q1.2 [net B1A] <-> Q1.1 [net N1]
+          - Q1.2 [net B1A] <-> Q1.1 [net N1]
+          - Q2.3 [net E2] <-> Q2.2 [net N1]
+          ... and 35 more
+  - 0 potentially fixable violations
+Notice: Freerouting does not modify component placement, board outlines, or fixed items.
+Resolving these 40 unfixable violation(s) is the responsibility of the board author in their EDA tool (e.g. KiCad).
+2026-11-12 19:33:20.118 INFO   [EB1E17\DAAC91] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=9.
+2026-11-12 19:33:20.143 INFO   [EB1E17\DAAC91] Fanout stage is enabled but skipped because the board has no SMD pins.
+2026-11-12 19:33:20.164 INFO   [EB1E17\DAAC91] Auto-routing stage started on board '5b6983c2afc15050d2f12c7a8f1b479b' with baseline score 0.00 for 80 unrouted items.
+2026-11-12 19:33:21.679 INFO   [EB1E17\DAAC91] Auto-routing pass #1 on board '5b6983c2afc15050d2f12c7a8f1b479b' was completed in 1.49 seconds with score 874.26 (7 unrouted and 40 violations), using 0.96 CPU seconds and the job allocated 0.54 GB of memory so far.
+2026-11-12 19:33:21.901 INFO   [EB1E17\DAAC91] Auto-routing pass #2 on board 'd1e56e7429af6ef734fe6954f8e36e87' was completed in 0.21 seconds with score 907.60 (5 unrouted and 40 violations), using 0.96 CPU seconds and the job allocated 0.54 GB of memory so far.
+2026-11-12 19:33:22.200 INFO   [EB1E17\DAAC91] Auto-routing pass #3 on board '06b73278a37e8223ecfbfc72263a3ccc' was completed in 0.28 seconds with score 940.93 (3 unrouted and 40 violations), using 1.95 CPU seconds and the job allocated 1.45 GB of memory so far.
+2026-11-12 19:33:22.417 INFO   [EB1E17\DAAC91] Auto-routing pass #4 on board 'a072aff16cdbe96af45ac44cec2da06b' was completed in 0.20 seconds with score 974.26 (1 unrouted and 40 violations), using 1.95 CPU seconds and the job allocated 1.45 GB of memory so far.
+2026-11-12 19:33:22.502 INFO   [EB1E17\DAAC91] Auto-routing pass #5 on board '5ea7dc97b5d4b576d835bd0c9a1268f1' was completed in 0.07 seconds with score 990.93 (0 unrouted and 40 violations), using 1.95 CPU seconds and the job allocated 1.45 GB of memory so far.
+2026-11-12 19:33:22.516 INFO   [EB1E17\DAAC91] Auto-routing pass #6 on board '9dfbbbc9b089a09aae7c350d16871365' was completed in 0.00 seconds with score 990.93 (0 unrouted and 40 violations), using 1.95 CPU seconds and the job allocated 1.45 GB of memory so far.
+2026-11-12 19:33:22.534 INFO   [EB1E17\DAAC91] Auto-routing stage completed: started with 80 unrouted nets, completed in 2.41 seconds, final score: 990.93 (0 unrouted and 40 violations), using 1.95 total CPU seconds, 1.45 GB total allocated, and 17.9 MB peak heap usage.
+2026-11-12 19:33:22.570 INFO   [EB1E17\DAAC91] Optimization stage started on board '9dfbbbc9b089a09aae7c350d16871365'. Baseline router score: 990.93, optimizer score: 580.36, incomplete connections: 0, clearance violations: 40.
+2026-11-12 19:33:24.018 INFO   [EB1E17\DAAC91] Optimizer pass #1 on board '5ad40911a98a2dda5d80e1c6eef7e95a' was completed in 1.42 seconds with the score of 599.15 (0 unrouted and 40 violations).
+2026-11-12 19:33:24.028 INFO   [EB1E17\DAAC91] Optimizer pass #1: optimizer score 580.36 -> 599.15 (IMPROVED, 3.2361%), router score: 990.93, incomplete connections: 0, clearance violations: 40.
+2026-11-12 19:33:25.122 INFO   [EB1E17\DAAC91] Optimizer pass #2 on board '75b7631cffe5762b554872edbe758150' was completed in 1.07 seconds with the score of 622.44 (0 unrouted and 40 violations).
+2026-11-12 19:33:25.130 INFO   [EB1E17\DAAC91] Optimizer pass #2: optimizer score 599.15 -> 622.44 (IMPROVED, 3.8886%), router score: 990.93, incomplete connections: 0, clearance violations: 40.
+2026-11-12 19:33:26.060 INFO   [EB1E17\DAAC91] Optimizer pass #3 on board '56d6485c7789266b01d20b5784bab9d3' was completed in 0.90 seconds with the score of 599.44 (0 unrouted and 40 violations).
+2026-11-12 19:33:26.064 INFO   [EB1E17\DAAC91] Optimizer pass #3 candidate rejected: OPTIMIZER_SCORE_NOT_IMPROVED. Restoring incumbent (optimizer score 622.44, incomplete connections: 0, clearance violations: 40).
+2026-11-12 19:33:26.080 INFO   [EB1E17\DAAC91] Optimizer pass #3: optimizer score 622.44 -> 599.44 (REGRESSED, -3.6954%), router score: 990.93, incomplete connections: 0, clearance violations: 40.
+2026-11-12 19:33:27.501 INFO   [EB1E17\DAAC91] Optimizer pass #4 on board 'd068850e9a66254619017add8dbfeaf7' was completed in 1.39 seconds with the score of 638.89 (0 unrouted and 40 violations).
+2026-11-12 19:33:27.508 INFO   [EB1E17\DAAC91] Optimizer pass #4: optimizer score 622.44 -> 638.89 (IMPROVED, 2.6420%), router score: 990.93, incomplete connections: 0, clearance violations: 40.
+2026-11-12 19:33:29.224 INFO   [EB1E17\DAAC91] Optimizer pass #5 on board 'c882d42404c9a2834a36e3a9fb54564c' was completed in 1.69 seconds with the score of 652.78 (0 unrouted and 40 violations).
+2026-11-12 19:33:29.231 INFO   [EB1E17\DAAC91] Optimizer pass #5: optimizer score 638.89 -> 652.78 (IMPROVED, 2.1739%), router score: 990.93, incomplete connections: 0, clearance violations: 40.
+2026-11-12 19:33:29.231 INFO   [EB1E17\DAAC91] Stopping optimizer because the improvement in this pass (2.1739%) is below the threshold (2.50%).
+2026-11-12 19:33:29.239 INFO   [EB1E17\DAAC91] Optimization stage completed:. Baseline router score: 990.93, baseline optimizer score: 580.36, final router score: 990.93, final optimizer score: 652.78, completed in 6.67 seconds, using 33.97 total CPU seconds, 27.53 GB total allocated, and 2247.8 MB peak heap usage.
+2026-11-12 19:33:29.245 INFO   [EB1E17\DAAC91] Job 'EB1E17\DAAC91' finished with state: COMPLETED (elapsed: 9.19 seconds, finished at UTC: 2026-11-12T19:33:29.245141Z).
+2026-11-12 19:33:29.258 INFO   Saving output file '/Users/cesare/Documents/NA522/design1_tht/pcb_T/na522_tht_T.ses' (SES)...
+2026-11-12 19:33:29.260 INFO   Successfully saved output file '/Users/cesare/Documents/NA522/design1_tht/pcb_T/na522_tht_T.ses' (28981 bytes).

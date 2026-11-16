@@ -1,0 +1,31 @@
+qty_per_board,qty_per_pair,refs,value,fit,description,manufacturer,mpn
+1,2,C1,1uF,fit,"MLCC C0G/NP0 1 uF 50 V 5 %, 2220",TDK,C5750C0G1H105J230KA
+1,2,C10,10uF,fit,"Al. electrolytic SMD 10 uF 50 V, 5x5.8",Panasonic,EEE-FK1H100P
+1,2,C2,470pF,fit,"MLCC C0G 470 pF 50 V 5 %, 0805",Murata,GRM2165C1H471JA01D
+2,4,C3 C5,220uF,fit,"Al. electrolytic SMD 220 uF 35 V, 8x10.2",Panasonic,EEE-FK1V221P
+1,2,C4,22nF,fit,"MLCC C0G 22 nF 50 V 5 %, 1206",Murata,GRM3195C1H223JA01D
+1,2,C6,68nF,fit,"MLCC C0G 68 nF 50 V 5 %, 1206",TDK,C3216C0G1H683J160AA
+1,2,C7,47uF,fit,"Al. electrolytic SMD 47 uF 35 V, 6.3x7.7",Panasonic,EEE-FK1V470P
+1,2,C8,470uF,fit,"Al. electrolytic SMD 470 uF 35 V, 10x10.2",Panasonic,EEE-FK1V471P
+1,2,C9,100nF,fit,"MLCC X7R 100 nF 50 V, 0805",Murata,GRM21BR71H104KA01L
+4,8,P1 P2 P3 P4,socket,fit,"Receptacle for 0.8 x 1.7 mm blade pin (1.65-2.08 mm #07 contact), gold",Mill-Max,0391-0-15-15-07-27-10-0
+4,8,Q1 Q4 Q6 Q9,"BC850C,215",fit,"NPN low-noise BC850C, SOT-23 (1=B 2=E 3=C)",Nexperia,"BC850C,215"
+2,4,Q2 Q7,"BC860C,215",fit,"PNP low-noise BC860C, SOT-23 (1=B 2=E 3=C)",Nexperia,"BC860C,215"
+4,8,Q3 Q5 Q8 Q10,"BCX56-16,115",fit,"NPN medium power BCX56-16, SOT-89 (1=B 2=C 3=E)",Nexperia,"BCX56-16,115"
+1,2,R1,75k,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW080575K0BEEA
+1,2,R10,1.1k,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW08051K10BEEA
+2,4,R11 R23,62k,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW080562K0BEEA
+1,2,R12,3.4k,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW08053K40BEEA
+3,6,R13 R20 R25,68,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW080568R0BEEA
+1,2,R15,220k,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW0805220KBEEA
+1,2,R16,390,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW0805390RBEEA
+1,2,R17,4.7k,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW08054K70BEEA
+1,2,R2,330k,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW0805330KBEEA
+1,2,R21,63.4k,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW080563K4BEEA
+1,2,R24,100k,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW0805100KBEEA
+2,4,R3 R26,165k,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW0805165KBEEA
+1,2,R4,470,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW0805470RBEEA
+4,8,R5 R8 R14 R19,22k,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW080522K0BEEA
+1,2,R6,499,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW0805499RBEEA
+4,8,R7 R9 R18 R22,1k,fit,"Thin film 0805, 0.125 W, 0.1 %, 25 ppm/K",Vishay,TNPW08051K00BEEA
+0,0,C6B,1nF,DNF,"MLCC C0G 1 nF 50 V 5 %, 0805",Murata,GRM2165C1H102JA01D

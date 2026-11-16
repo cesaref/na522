@@ -1,0 +1,104 @@
+* Design 2 - surface-mount (modern, RIAA-exact)
+.include models.lib
+V24 V24 0 DC 24
+VS IN 0 DC 0
+R1 IN 0 75000
+C1 B1 IN 1e-06
+R3 VCC B1F 165000
+R26 B1F B1 165000
+C10 B1F 0 1e-05
+R2 B1 0 330000
+R4 B1 B1A 470
+C2 B1A 0 4.7e-10
+Q1 N1 B1A E1 BC850C
+R5 VCC N1 22000
+Q2 N2 N1 E2 BC860C
+R7 VCC E2 1000
+R8 N2 0 22000
+R9 N2 B3 1000
+Q3 VCC B3 O1 BCX56
+R10 O1 E1 1100
+R6 E1 C3P 499
+C3 C3P 0 0.00022
+Q5 O1 Y1 Z1 BCX56
+R11 VCC Y1 62000
+Q4 Y1 Z1 0 BC850C
+R13 Z1 0 68
+R12 O1 B6 3400
+C4 B6 0 2.2e-08
+Q6 N6 B6 E6 BC850C
+R14 VCC N6 22000
+Q7 N7 N6 E7 BC860C
+R18 VCC E7 1000
+R19 N7 0 22000
+R22 N7 B8 1000
+Q8 VCC B8 O2 BCX56
+R15 E6 0 220000
+R16 E6 C5P 390
+C5 C5P 0 0.00022
+R17 E6 F2 4700
+R21 F2 O2 63400
+C6 F2 O2 6.8e-08
+Q10 O2 Y2 Z2 BCX56
+R23 VCC Y2 62000
+Q9 Y2 Z2 0 BC850C
+R20 Z2 0 68
+C7 O2 OUT 4.7e-05
+R24 OUT 0 100000
+R25 V24 VCC 68
+C8 VCC 0 0.00047
+C9 VCC 0 1e-07
+RLOAD OUT 0 47000
+.temp 60
+.options savecurrents reltol=1e-5 vntol=1e-8 abstol=1e-14
+.control
+op
+echo NODE V24 $&v(V24)
+echo NODE VCC $&v(VCC)
+echo NODE B1 $&v(B1)
+echo NODE B1A $&v(B1A)
+echo NODE E1 $&v(E1)
+echo NODE N1 $&v(N1)
+echo NODE E2 $&v(E2)
+echo NODE N2 $&v(N2)
+echo NODE O1 $&v(O1)
+echo NODE Y1 $&v(Y1)
+echo NODE Z1 $&v(Z1)
+echo NODE B6 $&v(B6)
+echo NODE E6 $&v(E6)
+echo NODE N6 $&v(N6)
+echo NODE E7 $&v(E7)
+echo NODE N7 $&v(N7)
+echo NODE O2 $&v(O2)
+echo NODE Y2 $&v(Y2)
+echo NODE Z2 $&v(Z2)
+echo NODE F2 $&v(F2)
+echo NODE OUT $&v(OUT)
+echo NODE B3 $&v(B3)
+echo NODE B8 $&v(B8)
+echo NODE C3P $&v(C3P)
+echo NODE C5P $&v(C5P)
+echo QIC Q1 $&@q1[ic]
+echo QIB Q1 $&@q1[ib]
+echo QIC Q2 $&@q2[ic]
+echo QIB Q2 $&@q2[ib]
+echo QIC Q3 $&@q3[ic]
+echo QIB Q3 $&@q3[ib]
+echo QIC Q4 $&@q4[ic]
+echo QIB Q4 $&@q4[ib]
+echo QIC Q5 $&@q5[ic]
+echo QIB Q5 $&@q5[ib]
+echo QIC Q6 $&@q6[ic]
+echo QIB Q6 $&@q6[ib]
+echo QIC Q7 $&@q7[ic]
+echo QIB Q7 $&@q7[ib]
+echo QIC Q8 $&@q8[ic]
+echo QIB Q8 $&@q8[ib]
+echo QIC Q9 $&@q9[ic]
+echo QIB Q9 $&@q9[ib]
+echo QIC Q10 $&@q10[ic]
+echo QIB Q10 $&@q10[ib]
+echo ISUP $&i(v24)
+.endc
+
+.end

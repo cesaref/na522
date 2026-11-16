@@ -1,0 +1,13 @@
+(footprint "Peg_Hole_3.2mm"
+	(version 20241229)
+	(generator "na522_build")
+	(layer "F.Cu")
+	(descr "Non-plated hole for the NAC82 plastic snap-in retaining peg; 3.2 mm, keep-out 3.6 mm radius")
+	(attr exclude_from_pos_files exclude_from_bom)
+	(property "Reference" "H?" (at 0 -4.5 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+	(property "Value" "PEG" (at 0 4.5 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+	(fp_circle (center 0 0) (end 3.6 0) (stroke (width 0.05) (type solid)) (fill no) (layer "F.CrtYd"))
+	(fp_circle (center 0 0) (end 3.6 0) (stroke (width 0.05) (type solid)) (fill no) (layer "B.CrtYd"))
+	(fp_circle (center 0 0) (end 3.4 0) (stroke (width 0.12) (type solid)) (fill no) (layer "F.SilkS"))
+	(pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask"))
+)

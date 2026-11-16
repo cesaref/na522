@@ -1,0 +1,28 @@
+qty_per_board,qty_per_pair,refs,value,fit,description,manufacturer,mpn
+2,4,C1 C7,10uF,fit,"Tantalum, dipped radial, 10 uF 35 V 10 %, P=5 mm",KEMET,T350E106K035AT
+1,2,C2,470pF,fit,"Polypropylene film 470 pF 100 V 5 %, P=5 mm",WIMA,FKP2 series
+3,6,C3 C5 C8,47uF,fit,"Al. electrolytic radial 47 uF 50 V, 6.3x11, P=2.5 mm",Panasonic,EEU-FR1H470
+1,2,C4,22nF,fit,"Polypropylene film 22 nF 100 V 2.5-5 %, P=5 mm",WIMA,MKP2 series (or FKP2)
+1,2,C6,68nF,fit,"Polypropylene film 68 nF 100 V 2.5-5 %, P=5 mm, W=4.5",WIMA,MKP2 series
+4,8,P1 P2 P3 P4,socket,fit,"Receptacle for 0.8 x 1.7 mm blade pin (1.65-2.08 mm #07 contact), gold",Mill-Max,0391-0-15-15-07-27-10-0
+4,8,Q1 Q4 Q6 Q9,BC550C,fit,"NPN low-noise, hFE group C, TO-92, pinout C-B-E",Diotec / CDIL,BC550C
+2,4,Q2 Q7,BC560C,fit,"PNP low-noise, hFE group C, TO-92, pinout C-B-E",Diotec / CDIL,BC560C
+4,8,Q3 Q5 Q8 Q10,BC550C,fit,"NPN, hFE group C, TO-92 (Pd ~0.13 W)",Diotec / CDIL,BC550C
+3,6,R1 R11 R23,62k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C6202FC100
+1,2,R10,2.2k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C2201FC100
+1,2,R12,3.4k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C3401FC100
+2,4,R13 R20,68,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C68R0FC100
+1,2,R15,220k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C2203FC100
+1,2,R16,390,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C3900FC100
+1,2,R17,4.7k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C4701FC100
+1,2,R21,82k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C8202FC100
+1,2,R24,100k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C1003FC100
+1,2,R25,27,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C27R0FC100
+1,2,R26,0R,fit,Wire link (0.6 mm tinned copper) - or 0R 0207,-,wire link
+2,4,R3 R2,330k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C3303FC100
+1,2,R4,470,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C4700FC100
+4,8,R5 R8 R14 R19,22k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C2202FC100
+5,10,R7 R9 R6 R18 R22,1k,fit,"Metal film 0207, 0.4 W, 1 %, 50 ppm/K",Vishay,MBB02070C1001FC100
+0,0,C10,10uF,DNF,"Al. electrolytic radial 10 uF 50 V, 5x11, P=2 mm",Panasonic,EEU-FR1H100
+0,0,C6B,1nF,DNF,"Polypropylene film 1 nF 100 V, P=5 mm",WIMA,FKP2 series
+0,0,C9,100nF,DNF,"Polyester film 100 nF 63 V, P=5 mm",WIMA,MKS2 series
